@@ -34,15 +34,15 @@ export default function Home() {
           {[
             {
               title: "Hombre",
-              image: "https://images.unsplash.com/photo-1581044777550-4cfa60707c03?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80",
+              image: "https://www.hdehipica.net/tienda/wp-content/uploads/2016/08/pantalon-tiago.png",
             },
             {
               title: "Mujer",
-              image: "https://images.unsplash.com/photo-1600872167946-851e3d3c0723?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80",
+              image: "https://espaciohipico.es/wp-content/uploads/2022/09/chaqueta-de-concurso-prima-double-front-panel-technology-3-600x600.jpg.webp",
             },
             {
               title: "Niños",
-              image: "https://images.unsplash.com/photo-1581044777875-c31eafacdbc0?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80",
+              image: "https://elcorcel.es/wp-content/uploads/2022/11/CHAQUETA_BR_BRETT_ROSIN_7-600x600.jpg",
             },
           ].map((category) => (
             <div key={category.title} className="relative group cursor-pointer">
