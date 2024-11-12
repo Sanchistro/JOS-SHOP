@@ -35,17 +35,21 @@ export default function Home() {
             {
               title: "Hombre",
               image: "https://www.zanahoriaequitacion.com/269-large_default/polo-blanco-de-equitacion-para-hombre.jpg",
+              link: "/catalog/men",
             },
             {
               title: "Mujer",
               image: "https://www.bracomonteequestrian.com/wp-content/uploads/2023/07/BlueBreeches1-800x800.jpg",
+              link: "/catalog/women",
             },
             {
               title: "Niños",
               image: "https://tiendahipicalcdc.es/50867-large_default/leggings-mini-ros-romee-nios.jpg",
+              link: "/catalog//kids",
             },
           ].map((category) => (
             <div key={category.title} className="relative group cursor-pointer">
+              <Link to={category.link}>
               <img
                 src={category.image}
                 alt={category.title}
@@ -54,6 +58,7 @@ export default function Home() {
               <div className="absolute inset-0 bg-black bg-opacity-40 group-hover:bg-opacity-50 transition rounded-lg flex items-center justify-center">
                 <h3 className="text-white text-2xl font-bold">{category.title}</h3>
               </div>
+              </Link>
             </div>
           ))}
         </div>
