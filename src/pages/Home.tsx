@@ -34,15 +34,15 @@ export default function Home() {
           {[
             {
               title: "Hombre",
-              image: "https://www.hdehipica.net/tienda/wp-content/uploads/2016/08/pantalon-tiago.png",
+              image: "https://www.zanahoriaequitacion.com/269-large_default/polo-blanco-de-equitacion-para-hombre.jpg",
             },
             {
               title: "Mujer",
-              image: "https://espaciohipico.es/wp-content/uploads/2022/09/chaqueta-de-concurso-prima-double-front-panel-technology-3-600x600.jpg.webp",
+              image: "https://www.bracomonteequestrian.com/wp-content/uploads/2023/07/BlueBreeches1-800x800.jpg",
             },
             {
               title: "Niños",
-              image: "https://elcorcel.es/wp-content/uploads/2022/11/CHAQUETA_BR_BRETT_ROSIN_7-600x600.jpg",
+              image: "https://tiendahipicalcdc.es/50867-large_default/leggings-mini-ros-romee-nios.jpg",
             },
           ].map((category) => (
             <div key={category.title} className="relative group cursor-pointer">
