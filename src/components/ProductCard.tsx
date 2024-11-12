@@ -9,7 +9,7 @@ interface ProductCardProps {
 
 export default function ProductCard({ image, name, price, category }: ProductCardProps) {
   return (
-    <div className="bg-white rounded-lg shadow-md overflow-hidden transition-transform hover:scale-105">
+    <div className="bg-gray-400 rounded-lg shadow-md overflow-hidden transition-transform hover:scale-105">
       <img src={image} alt={name} className="w-full h-64 object-cover" />
       <div className="p-4">
         <span className="text-sm text-indigo-600 font-medium">{category}</span>
