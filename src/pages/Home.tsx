@@ -35,17 +35,17 @@ export default function Home() {
             {
               title: "Hombre",
               image: "https://www.zanahoriaequitacion.com/269-large_default/polo-blanco-de-equitacion-para-hombre.jpg",
-              link: "/catalog/men",
+              link: "/catalog",
             },
             {
               title: "Mujer",
               image: "https://www.bracomonteequestrian.com/wp-content/uploads/2023/07/BlueBreeches1-800x800.jpg",
-              link: "/catalog/women",
+              link: "/catalog",
             },
             {
               title: "Niños",
               image: "https://tiendahipicalcdc.es/50867-large_default/leggings-mini-ros-romee-nios.jpg",
-              link: "/catalog//kids",
+              link: "/catalog",
             },
           ].map((category) => (
             <div key={category.title} className="relative group cursor-pointer">
