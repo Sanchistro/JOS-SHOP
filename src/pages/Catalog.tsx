@@ -1,48 +1,53 @@
 import React, { useState } from 'react';
 import ProductCard from '../components/ProductCard';
-
+import foto1 from '../media/foto1.jpeg';
+import foto2 from '../media/foto2.jpeg';
+import foto3 from '../media/foto3.jpeg';
+import foto4 from '../media/foto4.jpeg';
+import foto5 from '../media/foto5.jpeg';
+import foto6 from '../media/foto6.jpeg';
 const products = [
   {
     id: 1,
     name: "Pantalón de Montar Premium",
     price: 49.99,
     category: "Hombre",
-    image: "https://www.horze.es/dw/image/v2/AATB_PRD/on/demandware.static/-/Sites-main-catalog/default/dwb6e3dd55/bvertigo/36725_vdb_02.jpg?sw=680&q=70",
+    image: foto1,
   },
   {
     id: 2,
     name: "Pantalón de Montar Premium",
     price: 49.99,
     category: "Hombre",
-    image: "https://www.horze.es/dw/image/v2/AATB_PRD/on/demandware.static/-/Sites-main-catalog/default/dwcf559d93/horze/36050_DB_02.jpg?sw=680&q=70",
+    image: foto2,
   },
   {
     id: 3,
     name: "Pantalón de Montar Premium",
     price: 49.99,
     category: "Hombre",
-    image: "https://www.horze.es/dw/image/v2/AATB_PRD/on/demandware.static/-/Sites-main-catalog/default/dw08c47731/bvertigo/36744_vdb_02.jpg?sw=680&q=70",
+    image: foto3,
   },
   {
     id: 4,
     name: "Pantalón de Montar Premium",
     price: 49.99,
-    category: "Hombre",
-    image: "https://www.horze.es/dw/image/v2/AATB_PRD/on/demandware.static/-/Sites-main-catalog/default/dwf82b3969/bvertigo/36060_781_02.jpg?sw=680&q=70",
+    category: "Mujer",
+    image: foto4,
   },
   {
     id: 5,
     name: "Pantalón de Montar Premium",
     price: 49.99,
     category: "Hombre",
-    image: "https://www.horze.es/dw/image/v2/AATB_PRD/on/demandware.static/-/Sites-main-catalog/default/dw4b80d253/boss/DK8CZ_099_02.jpg?sw=680&q=70",
+    image: foto5,
   },
   {
     id: 6,
     name: "Pantalón de Montar Premium",
     price: 49.99,
     category: "Hombre",
-    image: "https://www.horze.es/dw/image/v2/AATB_PRD/on/demandware.static/-/Sites-main-catalog/default/dwac050cee/pikeur/311087_WH_4.jpg?sw=680&q=70",
+    image: foto6,
   },
   {
     id: 7,
